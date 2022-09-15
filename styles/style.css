@@ -338,7 +338,7 @@
   color: #2f80ed;
 }
 
-..footer__column-link:last-of-type {
+.footer__column-link:last-of-type {
   margin-bottom: 0;
 }
 
