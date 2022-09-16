@@ -1,11 +1,3 @@
-.text_center {
-  text-align: center;
-}
-
-.link_arrow-right::after {
-  content: ' \2192';
-}
-
 /* 
 * {
   outline: 1px solid gray;
@@ -155,6 +147,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  text-align: center;
 }
 
 .section-title_theme_dark {
@@ -168,6 +161,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
 .section-subtitle_theme_dark {
@@ -233,12 +227,14 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+  text-align: center;
 }
 
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  text-align: center;
 }
 
 .feynman__link {
