@@ -42,6 +42,8 @@
 }
 
 .header__title {
+  margin-top: 0;
+  margin-bottom: 0;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -50,6 +52,8 @@
 }
 
 .header__subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -62,6 +66,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link:hover {
@@ -69,7 +74,6 @@
 }
 
 .header__main-illustration {
-  display: block;
   width: 765px;
   height: 608px;
   object-fit: cover;
@@ -194,6 +198,7 @@
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -209,12 +214,11 @@
 /* Feynman */
 
 .feynman {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  min-height: 890px;
   padding-top: 100px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   align-items: center;
   background: #f2f2f2 url('../images/feynman.png') bottom left no-repeat;
   background-size: 867px 637px;
@@ -231,6 +235,8 @@
 }
 
 .feynman__subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
@@ -241,6 +247,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
@@ -271,13 +278,16 @@
   top: 0;
   right: -210px;
   z-index: 0;
+  background: url('../images/kaufman-triangle.svg');
+  background-size: cover;
 }
 
 /* Footer */
 
 .footer {
-  min-height: 250px;
+  min-height: 350px;
   padding: 60px 0 40px;
+  box-sizing: border-box;
   background: #1f1f1f;
   color: #fff;
   display: flex;
@@ -309,7 +319,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -321,7 +331,6 @@
 
 .footer__column-link {
   display: flex;
-  margin-bottom: 10px;
   text-decoration: none;
   align-items: center;
   line-height: 30px;
@@ -332,10 +341,6 @@
 
 .footer__column-link:hover {
   color: #2f80ed;
-}
-
-.footer__column-link:last-of-type {
-  margin-bottom: 0;
 }
 
 .footer__social-icon {
