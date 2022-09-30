@@ -1,14 +1,14 @@
 .footer__column-link {
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: 400;
-    color: inherit;
-    transition: color .2s linear;
-  }
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: inherit;
+  transition: color .2s linear;
+}
 
-  .footer__column-link:hover {
-    color: #2f80ed;
-  }
+.footer__column-link:hover {
+  color: #2f80ed;
+}

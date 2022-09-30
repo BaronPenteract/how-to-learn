@@ -1,12 +1,12 @@
 .header__subtitle {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 388px;
-    position: absolute;
-    left: 64px;
-    bottom: 30px;
-    z-index: 2;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: 400;
-  }
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}

@@ -1,9 +1,9 @@
 .footer {
-    min-height: 350px;
-    padding: 60px 0 40px;
-    box-sizing: border-box;
-    background: #1f1f1f;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-  }
+  min-height: 350px;
+  padding: 60px 0 40px;
+  box-sizing: border-box;
+  background: #1f1f1f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
