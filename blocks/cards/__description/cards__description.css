@@ -1,0 +1,10 @@
+.cards__description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.cards__description + .cards__description {
+  margin-top: 10px;
+}
